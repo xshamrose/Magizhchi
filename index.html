@@ -20,7 +20,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-color:rgba(33, 32, 32, 0.573);
+        background-color:darkslategrey;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -51,6 +51,23 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
+      .Logo{
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        
+  
+  background:transparent;
+  transition: width 2s, height 4s;
+}
+
+.Logo:hover {
+  width: 200px;
+  height: 200px;
+}
+
+      
+
     </style>
 </head>
 <body>
@@ -74,6 +91,8 @@
           document.getElementById("mySidenav").style.width = "0";
         }
         </script>
-   
+        <img src="/magizhlogo.jpg"  class="Logo">
+        
+
 </body>
 </html>
